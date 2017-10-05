@@ -665,6 +665,15 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IxRX06SuEeeg1IF4q3rsUA" x="1207" y="342"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_cZGnsKoMEeebqpJqq8PUuA" type="Model_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cZHOwKoMEeebqpJqq8PUuA" type="Model_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cZHOwaoMEeebqpJqq8PUuA" type="Model_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cZHOwqoMEeebqpJqq8PUuA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cZHOw6oMEeebqpJqq8PUuA"/>
+      </children>
+      <element xmi:type="uml:Model" href="model.uml#_cY-r4KoMEeebqpJqq8PUuA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cZGnsaoMEeebqpJqq8PUuA" x="362" y="370"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_q7GLkaSoEeeg1IF4q3rsUA" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_q7GLkqSoEeeg1IF4q3rsUA"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_q7GLk6SoEeeg1IF4q3rsUA">
