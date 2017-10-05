@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_Vd9_0KShEeeg1IF4q3rsUA" name="RootElement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_VnxcEKShEeeg1IF4q3rsUA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Vn9pUKShEeeg1IF4q3rsUA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8iYaEKSiEeeg1IF4q3rsUA" name="velocimetro">
+      <packagedElement xmi:type="uml:Class" xmi:id="_rgc4MKSkEeeg1IF4q3rsUA" name="señal"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OI3dsKSlEeeg1IF4q3rsUA" name="Ignicion"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_c6uIcKSlEeeg1IF4q3rsUA" name="Muestreo"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_l8Ur0KSlEeeg1IF4q3rsUA" name="Tablero"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vnbfMKSlEeeg1IF4q3rsUA" name="Frecuencia"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2e8woKSlEeeg1IF4q3rsUA" name="Frecuencia2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JdovkKSjEeeg1IF4q3rsUA" name="odometro">
+      <packagedElement xmi:type="uml:Class" xmi:id="_LFdhoKSmEeeg1IF4q3rsUA" name="Distancia"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SVv4YKSmEeeg1IF4q3rsUA" name="Muestreo"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZAn08KSmEeeg1IF4q3rsUA" name="Incremento"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fO8_cKSmEeeg1IF4q3rsUA" name="Retroceso "/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pOcucKSmEeeg1IF4q3rsUA" name="Error"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_v_F70KSmEeeg1IF4q3rsUA" name="Valores"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3QqE8KSmEeeg1IF4q3rsUA" name="Trip"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OTqqYKSjEeeg1IF4q3rsUA" name="indicadores">
+      <packagedElement xmi:type="uml:Class" xmi:id="_5-FfEKSnEeeg1IF4q3rsUA" name="Sensor1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_B8_2YKSoEeeg1IF4q3rsUA" name="Sensor2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M4hv0KSoEeeg1IF4q3rsUA" name="Sensor3"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UkTvwKSoEeeg1IF4q3rsUA" name="Sensor4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SA2t0KSjEeeg1IF4q3rsUA" name="gasolina">
+      <packagedElement xmi:type="uml:Class" xmi:id="_HG16gKSnEeeg1IF4q3rsUA" name="Escala"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OmDeEKSnEeeg1IF4q3rsUA" name="Indicador"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Vl3I0KSnEeeg1IF4q3rsUA" name="Escala2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_f-a4EKSnEeeg1IF4q3rsUA" name="Control"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_npwMEKSnEeeg1IF4q3rsUA" name="Delay"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VkDZsKShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VkO_4KShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VnhkcKShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnhkcaShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VnuYwKShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnuYwaShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Vnu_0KShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vnu_0aShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Vnu_0qShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vnu_06ShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Vnvm4KShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vnvm4aShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Vnvm4qShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vnvm46ShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VnwN8KShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnwN8aShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VnwN8qShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnwN86ShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Vnw1AKShEeeg1IF4q3rsUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vnw1AaShEeeg1IF4q3rsUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_rgn3UKSkEeeg1IF4q3rsUA" base_Class="_rgc4MKSkEeeg1IF4q3rsUA" id="señalvel&#xD;&#xA;" text="Tener una señal de velocidad&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_OJAnoKSlEeeg1IF4q3rsUA" base_Class="_OI3dsKSlEeeg1IF4q3rsUA" id="StatusIg" text="*Tener un estado de ignicion&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_c6-AEKSlEeeg1IF4q3rsUA" base_Class="_c6uIcKSlEeeg1IF4q3rsUA" id="velocidad" text="Aplicar formulas de acuerdo al requisito"/>
+  <Requirements:Requirement xmi:id="_l8fq8KSlEeeg1IF4q3rsUA" base_Class="_l8Ur0KSlEeeg1IF4q3rsUA" id="Aguja" text="Delimitar entre 0 y 140 kph"/>
+  <Requirements:Requirement xmi:id="_vnlQMKSlEeeg1IF4q3rsUA" base_Class="_vnbfMKSlEeeg1IF4q3rsUA" id="500" text="La latencia debe ser igual o menor que 500 ms"/>
+  <Requirements:Requirement xmi:id="_2fF6kKSlEeeg1IF4q3rsUA" base_Class="_2e8woKSlEeeg1IF4q3rsUA" id="50" text="Muestreo proveniente de 50 ms"/>
+  <Requirements:Requirement xmi:id="_LFrkEKSmEeeg1IF4q3rsUA" base_Class="_LFdhoKSmEeeg1IF4q3rsUA" id="Total" text="Distancia total se actualiza cada 500 ms&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_SV5pYKSmEeeg1IF4q3rsUA" base_Class="_SVv4YKSmEeeg1IF4q3rsUA" id="ODOMETRO" text="Muestreo de distancia total"/>
+  <Requirements:Requirement xmi:id="_ZA3FgKSmEeeg1IF4q3rsUA" base_Class="_ZAn08KSmEeeg1IF4q3rsUA" id="Distancia" text="Actualizar distancia total y grabarla en memoria"/>
+  <Requirements:Requirement xmi:id="_fPGwcKSmEeeg1IF4q3rsUA" base_Class="_fO8_cKSmEeeg1IF4q3rsUA" id="Inferior " text="El software debe asegurar que nunca muestre un velocidad menor a la recorrida"/>
+  <Requirements:Requirement xmi:id="_pOmfcKSmEeeg1IF4q3rsUA" base_Class="_pOcucKSmEeeg1IF4q3rsUA" id="Alterado " text="En caso de alterarse marcar error"/>
+  <Requirements:Requirement xmi:id="_v_RiAKSmEeeg1IF4q3rsUA" base_Class="_v_F70KSmEeeg1IF4q3rsUA" id="ODOTRIP" text="Siempre legibles al usuario al encenderlo"/>
+  <Requirements:Requirement xmi:id="_3Q1EEKSmEeeg1IF4q3rsUA" base_Class="_3QqE8KSmEeeg1IF4q3rsUA" id="Reset" text="El trip debe cumplir con los requisitos del ODO mas un boton de reset"/>
+  <Requirements:Requirement xmi:id="_HHASkKSnEeeg1IF4q3rsUA" base_Class="_HG16gKSnEeeg1IF4q3rsUA" id="0 y 1" text="Escala a considerar 0 = Vacio a 1 = Lleno"/>
+  <Requirements:Requirement xmi:id="_OmPEQKSnEeeg1IF4q3rsUA" base_Class="_OmDeEKSnEeeg1IF4q3rsUA" id="Aguja" text="El nivel de muestreo es mediante agujas "/>
+  <Requirements:Requirement xmi:id="_VmA50KSnEeeg1IF4q3rsUA" base_Class="_Vl3I0KSnEeeg1IF4q3rsUA" id="Niveles" text="La escala debe de identificarse 1/4, 1/2, y 3/4"/>
+  <Requirements:Requirement xmi:id="_f-lQIKSnEeeg1IF4q3rsUA" base_Class="_f-a4EKSnEeeg1IF4q3rsUA" id="Litros" text="Es posible controlar libremente el nivel de 0 a 100%"/>
+  <Requirements:Requirement xmi:id="_np6kIKSnEeeg1IF4q3rsUA" base_Class="_npwMEKSnEeeg1IF4q3rsUA" id="4sec" text="La presentacion inicial de 0 a 100% en 4 segundos"/>
+  <Requirements:Requirement xmi:id="_5-P3IKSnEeeg1IF4q3rsUA" base_Class="_5-FfEKSnEeeg1IF4q3rsUA" id="Puerta" text="Indicar puerta abierta"/>
+  <Requirements:Requirement xmi:id="_B9KOcKSoEeeg1IF4q3rsUA" base_Class="_B8_2YKSoEeeg1IF4q3rsUA" id="Belt" text="Indicar si el piloto tiene el cinturo desabrochado"/>
+  <Requirements:Requirement xmi:id="_M4rg0KSoEeeg1IF4q3rsUA" base_Class="_M4hv0KSoEeeg1IF4q3rsUA" id="Luces" text="Indicar si el cambio de luces esta encendido"/>
+  <Requirements:Requirement xmi:id="_Ukeu4KSoEeeg1IF4q3rsUA" base_Class="_UkTvwKSoEeeg1IF4q3rsUA" id="Brake" text="Indicar si el freno de mano esta activado"/>
+</xmi:XMI>
